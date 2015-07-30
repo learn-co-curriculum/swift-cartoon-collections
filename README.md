@@ -1,7 +1,4 @@
----
-tags: arrays
-languages: swift
----
+
 
 ## Objectives
 
