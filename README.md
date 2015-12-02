@@ -70,3 +70,4 @@ There is a global method called `find` that you should use, instead of the more 
 ##Hints
 
 [Here's a site that walks through a ton of global functions](http://practicalswift.com/2014/06/14/the-swift-standard-library-list-of-built-in-functions/), for those methods mentioned above that aren't listed in Apple's array documentation (as global functions would not be found there.)
+<a href='https://learn.co/lessons/swift-cartoon-collections' data-visibility='hidden'>View this lesson on Learn.co</a>
