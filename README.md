@@ -70,7 +70,10 @@ For example:
 snacks = ["crackers", "gouda", "thyme"]
 findTheCheese(snacks)
 // returns back "gouda"
+```
 
+
+```swift
 soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 findTheCheese(soup)
 // returns back "cheddar"
@@ -78,7 +81,7 @@ findTheCheese(soup)
 
 If, sadly, a list of ingredients does not include cheese, return "not found":
 
-```ruby
+```swift
 ingredients = ["garlic", "rosemary", "bread"]
 findTheCheese(ingredients)
 // returns back "not found"
