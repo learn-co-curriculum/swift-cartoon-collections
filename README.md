@@ -25,14 +25,14 @@ This method should accept an array of dwarf names, for instance:
 ["Doc", "Dopey", "Bashful", "Grumpy"]
 ```
 
-It should then print out each name using `println`. The print-out should look like this:
+It should then print out each name using `print()`. The print-out should look like this:
 
 > 1. Doc
 > 2. Dopey
 > 3. Bashful
 > 4. Grumpy
 
-Look up the `enumerate` method. Use it in place of the standard for loop you used for your objective-c implementation.
+Look up the `enumerate` method, it might help you out here.
 
 #### Method 2 - Summon Captain Planet
 
@@ -55,19 +55,33 @@ Read up on the `map` method. Check it out here:
 
 #### Method 3 - Long Planeteer Calls
 
-The `long_planeteer_calls` method should accept an array of calls. The method should tell us if any of the calls are longer than four characters by returning a `BOOL`.
+The `longPlaneteerCalls` method should accept an array of calls. The method should tell us if any of the calls are longer than four characters by returning a `BOOL`.
 
 You have a couple of options here to make this work. Try the `filter` method. 
 
-Once the test for this method is passing, move on to the last method.
 
 #### Method 4 - Find the Cheese
 
-![dancing-mice](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/cartoon-collections/cheese.jpg)
+The `findTheCheese` method should accept an array of strings. It should then look through these strings to find and return the first string that is a type of cheese. The types of cheese that appear are  `"cheddar"`, `"gouda"`, and `"camembert"`.
 
-There is a global method called `find` that you should use, instead of the more verbose for loop!
+For example:
 
-##Hints
+```swift
+snacks = ["crackers", "gouda", "thyme"]
+findTheCheese(snacks)
+// returns back "gouda"
 
-[Here's a site that walks through a ton of global functions](http://practicalswift.com/2014/06/14/the-swift-standard-library-list-of-built-in-functions/), for those methods mentioned above that aren't listed in Apple's array documentation (as global functions would not be found there.)
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/swift-cartoon-collections' title='Objectives'>Objectives</a> on Learn.co and start learning to code for free.</p>
+soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+findTheCheese(soup)
+// returns back "cheddar"
+```
+
+If, sadly, a list of ingredients does not include cheese, return "not found":
+
+```ruby
+ingredients = ["garlic", "rosemary", "bread"]
+findTheCheese(ingredients)
+// returns back "not found"
+```
+
+You can assume that all strings will be lowercase.
