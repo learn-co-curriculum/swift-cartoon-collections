@@ -50,7 +50,7 @@ It should then capitalize each element and add an exclamation point at the end. 
 ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 ```
 
-Read up on the `map` method. Check it out here:
+You have a few options to make this work, try the `map` method.
 
 
 #### Method 3 - Long Planeteer Calls
